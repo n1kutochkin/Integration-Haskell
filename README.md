@@ -4,10 +4,10 @@ Implement Simpson rule integration method in Haskell
 # Contents
 Consists of module Simpson which contains the integrate function
 
-  integrate :: Func -> Interval -> Double
-  
-  where,
-  
+    integrate :: Func -> Interval -> Double
+
+where,
+
     Func :: Double -> Double
     Interval (Double, Double) Int.
 
