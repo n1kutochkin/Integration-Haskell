@@ -3,8 +3,10 @@ Implement Simpson rule integration method in Haskell
 
 ## Contents
 Consists of module Simpson which contains the integrate function
-
+    
+    '''haskell
     integrate :: Func -> Interval -> Double
+    '''
 
 where,
 
