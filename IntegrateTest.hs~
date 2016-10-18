@@ -1,0 +1,11 @@
+import qualified Simpson.Simpson
+import Data.List
+
+myInterval = I (0.0, 1.0) 1001 :: Simpson.Interval
+
+myFunc :: Double -> Double
+myFunc = \x -> x ** 2
+
+main = do
+  result = Simpson.integrate myFunc myInterval
+  putStrLn $ show result
